@@ -1,0 +1,6 @@
+version: '2'
+services:
+  website-text-downloader:
+    build: ./
+    volumes:
+      - ./data:/usr/app/data
